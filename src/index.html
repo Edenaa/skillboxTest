@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Стоимость обучения с преимуществами</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section class="cost-study">
+            <div class="cost-study__container">
+                <header>
+                    <h1 class="cost-study__title">Стоимость обучения</h1>
+                </header>
+                <div class="cost-study__block">
+                    <div class="cost-study__price_block price-block">
+                        <div class="price-block__discount discount-block">
+                            <p class="discount-block__title">Скидка</p>
+                            <p class="discount-block__percent">40%</p>
+                            <p class="discount-block__text">первым 20</p>
+                        </div>
+                        <div class="price-block__info full">
+                            <p class="full__title">Полная стоимость курса</p>
+                            <p class="full__sum_line_through full__sum">50 000 &#x20bd;</p>
+                        </div>
+                        <div class="price-block__info installment">
+                            <p class="installment__sum">2 900 &#x20bd;</p>
+                            <p class="installment__title">Рассрочка без первого взноса</p>
+                        </div>
+                        <div class="price-block__info first-twenty">
+                            <p class="first-twenty__sum">29 000 &#x20bd;</p>
+                            <p class="first-twenty__title">Для первых 20-ти</p>
+                        </div>
+                    </div>
+        
+                    <div class="cost-study__take_course take-course">
+                        <h2 class="take-course__title">Запишитесь на&#160;курс</h2>
+                        <ul class="take-course__benefits benefits">
+                            <li class="benefits__item">Телефон</li>
+                            <li class="benefits__item">Телефон</li>
+                            <li class="benefits__item">Телефон</li>
+                            <li class="benefits__item">Телефон</li>
+                        </ul>
+                        <div class="take-course__info">
+                            <p class="take-course__text">
+                                Старт курса&ensp;
+                                <span class="take-course__text_blue">7 сентября</span>
+                            </p>
+                            <p class="take-course__text">
+                                Осталось&ensp;
+                                <span class="take-course__text_blue">19 мест</span>
+                            </p>
+                        </div>
+                        <form class="take-course__form" id="take-course__form">
+                            <div class="take-course__form_control form-control">
+                                <input type="text" name="name" id="name" class="take-course__input" placeholder="Имя">
+                                <span class="take-course__error"></span>
+                            </div>
+                            <div class="take-course__form_control form-control">
+                                <input type="tel" name="phone" id="phone" class="take-course__input" placeholder="Телефон">
+                                <span class="take-course__error"></span>
+                            </div>
+                            <div class="take-course__form_control form-control">
+                                <input type="email" name="email" id="email" class="take-course__input" placeholder="Email">
+                                <span class="take-course__error"></span>
+                            </div>
+                            <label class="checkbox take-course__personal_data personal-data">
+                                <input type="checkbox" id="check" class="checkbox_hide">
+                                <span class="checkbox_custom"></span>
+                                <span class="personal-data__text checkbox__text">
+                                    Я согласен с условиями обработки 
+                                    <a href="#" class="personal-data__link">персональных данных</a>
+                                </span>
+                            </label>
+                            <button type="submit" id="take-course__submit" class="take-course__button take-course__button_disabled" disabled>Записаться</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
